@@ -42,7 +42,7 @@
             if($option == "1")
             {
                 $destination = $_POST['dest'];
-                $command = "f: && cd F:\college\sem_4\DS project && "."final ".$src." 1 ".$destination;
+                $command = "f: && cd F:\college\sem_4\DS project && "."final ".$src." 1 ".$destination;  \\edit the drive letter and path here
                 
                 $result = explode(" ", shell_exec($command));
                 
@@ -59,7 +59,7 @@
             elseif($option == "2")
             {
                 $category = $_POST['cat'];
-                $command = "f: && cd F:\college\sem_4\DS project && "."final ".$src." 2 ".$category;
+                $command = "f: && cd F:\college\sem_4\DS project && "."final ".$src." 2 ".$category; \\edit the drive letter and path here
                 
                 $result = explode(" ", shell_exec($command));
                 
